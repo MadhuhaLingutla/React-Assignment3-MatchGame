@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+}
+
+.bg-container {
+}
+.header {
+  background-color: #2c0e3a;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 40px;
+  padding-right: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.website-logo {
+  width: 200px;
+  height: 40px;
+}
+
+.score-timer-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.score {
+  color: #ffffff;
+  font-size: 18px;
+  margin-right: 30px;
+}
+.score-count {
+  color: #fec653;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.timer-container {
+  display: flex;
+  align-items: center;
+}
+.timer {
+  width: 25px;
+  height: 25px;
+  color: #ffffff;
+  margin-right: 8px;
+}
+
+.content-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  height: 100%;
+  padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.question-thumbnails-wrapping-container {
+  width: 700px;
+}
+.question-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.question-image {
+  border-radius: 5px;
+  width: 680px;
+}
+.thumbnails-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.thumbnails-heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 60px;
+  list-style: none;
+}
+.thumbnail-heading {
+  color: #ffffff;
+  font-size: 30px;
+  margin-right: 60px;
+  padding-bottom: 20px;
+  border: none;
+  background-color: transparent;
+}
+
+.selectedtabclass {
+  color: #fec653;
+  border-bottom: 3px solid #fec653;
+}
+.thumbnails-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.thumbnail-button {
+  border: none;
+  background-color: transparent;
+}
+.thumbnail-image {
+  width: 120px;
+  height: 120px;
+  border-radius: 2px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.remainingtime {
+  color: #fec653;
+  font-size: 20px;
+  font-weight: bold;
+}
+.remainingtime-count {
+  color: #fec653;
+  font-size: 25px;
+  font-weight: bold;
+}

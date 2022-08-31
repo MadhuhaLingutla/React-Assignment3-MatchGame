@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+}
+
+.remainingtime {
+  color: #fec653;
+  font-size: 20px;
+  font-weight: bold;
+}
+.remainingtime-count {
+  color: #fec653;
+  font-size: 25px;
+  font-weight: bold;
+}
